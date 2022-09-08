@@ -2,47 +2,95 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin: auto;
 
 }
 
 body{
   font-family: 'Fredoka', sans-serif;
-  background-color: lightgray;
 }
 
 /* GENERAL */
 
 h1{
-  font-size: 50px;
+  font-size: 25px;
   color: #E53170;
   font-weight: bold;
   
 }
 
-p{
-  font-size: 25px;
+p{font-size: 15px;}
+
+img{
+  height: 69px;
 }
 
 .titolo{
- height: 150px;
+ height: 70px;
  width: 100%;
  text-align: center;
- line-height: 150px; 
+ line-height: 70px; 
 }
 
 /* FINE HEADER  */
 
 .contenitore-general{
   margin: 0 auto;
-  height: 900px;
+  height: 600px;
   width: 80%;
 }
 
 .contenitore-paragrafo{
-  height: 130px;
+  height: 78px;
   width: 80%;
   text-align: center;
+  margin: auto;
+
 }
 
 /* FINE PARAGRAFO  */
+
+.contenitore-persone{
+  margin: 0 auto;
+  width: 80%;
+  height:450px;
+}
+
+.icona{
+  margin-top: 25px;
+  margin-left: 8.5px;
+  height: 70px;
+  width: 295px;
+  background-color: #0F0E17 ;
+  box-shadow: 0px 0px 4px 4px rgba(15,14, 23, 0.2);
+  float: left;
+}
+
+.foto{
+  margin-right: 8px ;
+  float: left;
+}
+
+.nome{
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFE;
+
+}
+
+.ruolo{
+  color: #FFFFFE;
+}
+  
+.mail{
+  color: #17CCF2;
+}
+
+/* PRIMA PERSONA */
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* FINE PRIMA RIGA  */
