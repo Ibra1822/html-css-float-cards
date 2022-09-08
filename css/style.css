@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+  background-color: lightgray;
+}
+
+/* GENERAL */
+
+h1{
+  font-size: 50px;
+  color: #E53170;
+  font-weight: bold;
+  
+}
+
+p{
+  font-size: 25px;
+}
+
+.titolo{
+ height: 150px;
+ width: 100%;
+ text-align: center;
+ line-height: 150px; 
+}
+
+/* FINE HEADER  */
+
+.contenitore-general{
+  margin: 0 auto;
+  height: 900px;
+  width: 80%;
+}
+
+.contenitore-paragrafo{
+  height: 130px;
+  width: 80%;
+  text-align: center;
+}
+
+/* FINE PARAGRAFO  */
