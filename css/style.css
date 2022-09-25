@@ -9,6 +9,7 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+
 /* GENERAL */
 
 h1{
@@ -18,11 +19,14 @@ h1{
   
 }
 
-p{font-size: 15px;}
+.desc{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding: 0px 10px;
 
-img{
-  height: 69px;
 }
+
 
 .titolo{
  height: 70px;
@@ -40,61 +44,60 @@ img{
   width: 80%;
 }
 
-.contenitore-paragrafo{
-  margin-top: 10px;
-  height: 68px;
-  width: 80%;
-  text-align: center;
+.contenitore-all{
+  height: 95%;
+  width: 95%;
   margin: auto;
+  
 
 }
 
 /* FINE PARAGRAFO  */
 
-.contenitore-persone{
-  margin: auto;
-  width: 80%;
-  height:450px;
-}
-
-.icona{
-  margin-top: 5px;
-  margin-left: 35px;
-  margin-bottom: 20px;
-  height: 70px;
-  width: 265px;
-  background-color: #0F0E17 ;
-  box-shadow: 0px 0px 4px 4px rgba(15,14, 23, 0.2);
-  float: left;
-}
-
-.foto{
-  margin-right: 8px ;
-  float: left;
-}
-
-.nome{
-  font-size: 20px;
-  font-weight: 600;
-  color: #FFFFFE;
-
-}
-
-.ruolo{
-  color: #FFFFFE;
-}
-  
-.mail{
-  color: #17CCF2;
-}
-
-/* PRIMA PERSONA */
-
 .clearfix::after{
-  content: "";
-  clear: both;
-  display: table;
+content:'';
+display: table;
+clear:both;
 }
 
+.row .col{
+  width: calc(100% / 3);
+  float: left;
+  padding: 0px 10px;
+  min-width: 320px;   
+  margin-bottom: 50px;
+}
 
-/* FINE PRIMA RIGA  */
+.row .col .card{
+  background-color: #0F0E17;
+  width: 100%;
+  box-shadow: 0 0 5px #000;
+}
+
+.row .col .card img{
+  width: 100px;
+  float: left;
+}
+.col .card .contenitore-dati{
+  float: right;
+  width: calc(100% - 100px);
+  padding-left: 15px;
+  padding-top: 10px;
+  
+  }
+
+  .card .nome{
+    color: #FFFFFE;
+    font-size: 1.3rem;
+  }
+
+  .card .ruolo{
+    color: #FFFFFE;
+    padding: 7px 0px;
+  }
+
+  .card .mail{
+    text-decoration: none;
+    color: #3AADE5;
+  }
+  
