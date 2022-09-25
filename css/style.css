@@ -89,15 +89,16 @@ clear:both;
   .card .nome{
     color: #FFFFFE;
     font-size: 1.3rem;
+    text-transform: uppercase;
   }
 
   .card .ruolo{
     color: #FFFFFE;
     padding: 7px 0px;
+
   }
 
   .card .mail{
     text-decoration: none;
     color: #3AADE5;
   }
-  
